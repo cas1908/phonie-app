@@ -24,7 +24,7 @@ body {
     display: flex;
     flex-direction: column;
     place-items: center;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.013);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.086);
 }
 .company_name {
     display: flex;
@@ -140,9 +140,37 @@ img {
     align-items: center;
     background-color: var(--white);
     box-shadow: 1px 1px 10px #9db7f832;
-    border: 1px solid var(--white);
     padding: 0.5rem;
     gap: 10px;
+    font-weight: 700;
+}
+.suggestion div:nth-child(1) {
+    background-color: #c7e600;
+    border: 1px solid #c7e600;
+}
+.suggestion div:nth-child(2) {
+    background-color: green;
+    border: 1px solid green;
+}
+.suggestion div:nth-child(3) {
+    background-color: var(--white);
+    border: 1px solid var(--white);
+}
+.suggestion div:nth-child(4) {
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+}
+.suggestion div:nth-child(1) span {
+    color: var(--primaryBlue);
+}
+.suggestion div:nth-child(2) span {
+    color: var(--white);
+}
+.suggestion div:nth-child(3) span {
+    color: var(--errorRed);
+}
+.suggestion div:nth-child(4) span {
+    color: var(--tertiaryBlue);
 }
 .suggestion div img {
     width: 30px;
@@ -155,7 +183,7 @@ img {
     width: 17px;
 }
 .suggestion div:nth-child(3) {
-    padding: 1rem 0.5rem;
+    padding: .6rem .5rem;
 }
 .suggestion span {
     color: var(--secondaryBlue);
@@ -163,6 +191,7 @@ img {
 @media screen and (min-width: 40em ) {
     .container {
         width: 50%;
+        margin: 12% auto;
     }
 }
 
