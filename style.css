@@ -53,7 +53,7 @@ section p {
 .input_field {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 5px;
 }
 input {
     /* background-color: var(--white); */
